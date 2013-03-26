@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/bin/sh
+
+echo "Getting the latest from remote repository..."
+cd ~/dotfiles/ && git pull origin master
 
 if [ ! -d ~/dotfiles_old ]; then
   echo "Creating directory ~/dotfiles_old/ for archiving..."
@@ -19,6 +22,9 @@ for file in ~/dotfiles/dotfiles/.*; do
     ln -s ~/dotfiles/dotfiles/$filename ~/$filename
   fi
 done
+
+# Reload shell config
+source ~/.zshrc
 
 echo "Success!"
 
