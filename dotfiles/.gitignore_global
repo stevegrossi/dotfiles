@@ -43,6 +43,7 @@ Thumbs.db
 .rvmrc
 *.scssc
 *.sassc
+.sass-cache/*
 
 # Rails #
 #########
