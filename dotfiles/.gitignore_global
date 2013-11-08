@@ -25,6 +25,7 @@
 *.log
 *.sql
 *.sqlite
+*.pid
 
 # OS generated files #
 ######################
@@ -40,10 +41,14 @@ Thumbs.db
 # Other #
 ##############
 .rvmrc
+*.scssc
+*.sassc
 
 # Rails #
 #########
 tmp/*
+public/uploads
+
 # ExpressionEngine #
 images/avatars/uploads
 images/captchas
