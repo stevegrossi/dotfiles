@@ -4,3 +4,5 @@
 [user]
   email = me@stevegrossi.com
   name = Steve Grossi
+[push]
+	default = simple
