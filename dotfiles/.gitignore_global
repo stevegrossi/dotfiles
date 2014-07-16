@@ -34,7 +34,6 @@
 ._*
 .Spotlight-V100
 .Trashes
-Icon?
 ehthumbs.db
 Thumbs.db
 
@@ -44,20 +43,3 @@ Thumbs.db
 *.scssc
 *.sassc
 .sass-cache/*
-
-# Rails #
-#########
-tmp/*
-public/uploads
-
-# ExpressionEngine #
-images/avatars/uploads
-images/captchas
-images/member_photos
-images/pm_attachments
-images/signature_attachments
-images/uploads
-system/config.php
-system/cache/db_cache
-system/cache/magpie_cache
-system/cache/page_cache
