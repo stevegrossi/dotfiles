@@ -3,6 +3,7 @@
 alias rm="rm -i"
 alias ltr="ls -ltr"
 alias dotfiles=". ~/dotfiles/go"
+alias fs="bundle exec foreman start -f Procfile.dev"
 
 # Prompt
 
