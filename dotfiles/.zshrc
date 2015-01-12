@@ -15,3 +15,5 @@ PROMPT="%n@%c%: "
 
 # added by travis gem
 [ -f /Users/steve/.travis/travis.sh ] && source /Users/steve/.travis/travis.sh
+# Git completon
+source /usr/local/share/zsh/site-functions/git-completion.bash
