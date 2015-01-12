@@ -6,3 +6,8 @@
   name = Steve Grossi
 [push]
 	default = simple
+[alias]
+	search = "!f() { git log --grep=$1; }; f"
+	cp = cherry-pick
+[grep]
+	extendRegexp = true
