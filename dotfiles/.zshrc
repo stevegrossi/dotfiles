@@ -28,3 +28,6 @@ PROMPT="%n@%c%: "
 
 # Git completon
 source /usr/local/share/zsh/site-functions/git-completion.bash
+
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
