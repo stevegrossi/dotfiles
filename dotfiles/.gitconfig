@@ -1,6 +1,6 @@
 [core]
   excludesfile = ~/.gitignore_global
-	editor = subl -n -w
+	editor = atom -n -w
 	filemode = false
 [user]
   email = me@stevegrossi.com
@@ -10,7 +10,7 @@
 [alias]
 	search = "!f() { git log --grep=$1; }; f"
 	cp = cherry-pick
-  cleanup = "!git remote prune origin && git branch --merged | grep  -v '\\*\\|master\\|production' | xargs -n 1 git branch -d"
+  cleanup = "!git remote prune origin && git branch --merged | grep  -v '\\*\\|master\\|production\\|staging' | xargs -n 1 git branch -d"
 [grep]
 	extendRegexp = true
 [filter "lfs"]
