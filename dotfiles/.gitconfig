@@ -10,7 +10,7 @@
 [alias]
 	search = "!f() { git log --grep=$1; }; f"
 	cp = cherry-pick
-  cleanup = "!git remote prune origin && git branch --merged | grep  -v '\\*\\|master\\|production\\|staging' | xargs -n 1 git branch -d"
+  cleanup = "!git remote prune origin && git branch -vv | grep ': gone]' | cut -d ' ' -f 3 | xargs -n 1 git branch -D"
 [grep]
 	extendRegexp = true
 [filter "lfs"]
