@@ -16,6 +16,7 @@ alias rc="bundle exec rails console"
 alias gs="git status"
 alias co="git checkout"
 alias prettyjson="python -m json.tool"
+alias bjs="bundle exec jekyll serve --incremental --force_polling"
 
 # Sublime Text `subl` command
 export PATH=$PATH:~/bin
