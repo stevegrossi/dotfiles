@@ -34,3 +34,4 @@ source /usr/local/share/zsh/site-functions/git-completion.bash
 
 # Postgres.app
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+export PATH="/usr/local/opt/elasticsearch@2.4/bin:$PATH"
