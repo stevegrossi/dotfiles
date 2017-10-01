@@ -20,6 +20,8 @@ alias bjs="bundle exec jekyll serve --incremental --force_polling"
 
 # Sublime Text `subl` command
 export PATH=$PATH:~/bin
+# Yarn config
+export PATH="$PATH:`yarn global bin`"
 
 # Prompt
 PROMPT="%n@%c%: "
