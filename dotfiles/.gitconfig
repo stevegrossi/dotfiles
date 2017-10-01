@@ -1,6 +1,6 @@
 [core]
   excludesfile = ~/.gitignore_global
-	editor = atom -n -w
+	editor = subl -n -w
 	filemode = false
 [user]
   email = me@stevegrossi.com
