@@ -18,6 +18,7 @@ alias gp="git pull"
 alias co="git checkout"
 alias prettyjson="python -m json.tool"
 alias bjs="bundle exec jekyll serve --incremental --force_polling"
+alias journal="subl ~/Dropbox/Write/Journal.md"
 
 # Sublime Text `subl` command
 export PATH=$PATH:~/bin
