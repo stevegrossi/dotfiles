@@ -1,0 +1,9 @@
+# Thanks! https://www.jakeworth.com/my-psql-config/
+#
+\set QUIET on
+\pset null 'ø'
+\x auto
+\timing
+\set HISTFILE ~/.psql_history-:DBNAME
+\set HISTCONTROL ignoredups
+\set QUIET off
