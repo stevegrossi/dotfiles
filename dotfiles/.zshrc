@@ -20,14 +20,6 @@ alias prettyjson="python -m json.tool"
 alias bjs="bundle exec jekyll serve --incremental --force_polling"
 alias journal="subl ~/Dropbox/Write/Journal.md"
 
-# Sublime Text `subl` command
-export PATH=$PATH:~/bin
-# Yarn config
-export PATH="$PATH:`yarn global bin`"
-
-# Enable Scout
-export SCOUT_DEV_TRACE=true
-
 # Prompt
 PROMPT="%n@%c%: "
 
@@ -35,8 +27,7 @@ PROMPT="%n@%c%: "
 source /usr/local/share/zsh/site-functions/git-completion.bash
 
 # asdf
-. $HOME/.asdf/asdf.sh
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
 
-export PATH="/usr/local/opt/elasticsearch@2.4/bin:$PATH"
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+# https://twitter.com/josevalim/status/1507608988577316865
+KERL_CONFIGURE_OPTIONS="--disable-debug --disable-silent-rules --without-javac --enable-shared-zlib --enable-dynamic-ssl-lib --enable-threads --enable-kernel-poll --enable-wx --enable-webview --enable-darwin-64bit --enable-gettimeofday-as-os-system-time --with-ssl=$(brew --prefix openssl)"
